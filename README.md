@@ -1,5 +1,45 @@
-# JavaScript
+# Домашня робота з теми "Call back функції"
 
-#У цьому сховищі присутні мої домашні роботи з мови JavaScript
+# Задача 1
 
-#This repository contains my homework in JavaScript language
+Необхідно створити функцію, яка приймає масив строк та callback-функцію. Функція
+повинна викликати callback-функцію з масивом, який містить тільки ті строки, які
+містять певне слово.
+
+```javascript
+const arr = ["Hello World", "Goodbye", "JavaScript", "World of Warcraft"];
+```
+
+# Задача 2
+
+Необхідно створити функцію, яка приймає масив чисел та callback-функцію. Функція
+повинна викликати callback-функцію з масивом, який містить тільки ті числа, які
+є парними.
+
+```js
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+filterNumbers(arr, callbackFunction);
+```
+
+# Задача 3
+
+Необхідно створити функцію, яка приймає масив строк та callback-функцію. Функція
+повинна викликати callback-функцію з масивом, який містить тільки ті строки, які
+містять вказаний символ.
+
+```js
+const arr4 = ["hello", "world", "javascript", "callback"];
+const char = "a";
+filterStrings(arr4, char, callbackFunction);
+```
+
+# Задача 4
+
+Необхідно створити функцію, яка приймає масив імен та callback-функцію. Функція
+повинна викликати callback-функцію з іменем, яке містить найбільшу кількість
+літер.
+
+```js
+const names = ["Андрій", "Олександр", "Максим", "Юлія", "Наталія"];
+getLongestName(names, callbackFunction);
+```
