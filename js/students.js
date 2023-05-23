@@ -17,14 +17,14 @@ students.forEach(function (student) {
     };
 });
 
-var greetings = students.map(function (student) {
+const greetings = students.map(function (student) {
     return student.greet();
 });
 
 console.group(`Greetings: `);
 console.log(greetings);
 
-var higherRatedStudents = students.filter(function (student) {
+const higherRatedStudents = students.filter(function (student) {
     return student.rating > 85;
 });
 
